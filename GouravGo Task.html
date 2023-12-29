@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <title>Task | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWt9Ofnt_oEz1fRbqLuBbUjo5Fck1wUWV1wg&usqp=CAU);
+            background-position: center;
+            background-size: cover;
+        }
+
+        header {
+            display: block;
+        }
+
+        main #home .profile-text {
+            padding: 20px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+            flex-direction: column;
+        }
+
+        section#home {
+            margin-top: 20px;
+        }
+
+        section {
+            box-shadow: 0 0 10px 1px;
+            background-color: white;
+            border-radius: 15px;
+            margin: 25px 0;
+        }
+
+        article {
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .art-head {
+            border-radius: 10px 10px 0 0;
+            padding: 10px;
+            font-size: x-large;
+            font-weight: bold;
+        }
+
+        .art-head-light {
+            font-weight: bold;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        s .content {
+            padding: 10px;
+            font-size: medium;
+            border-radius: 0 0 10px 10px;
+        }
+
+        h3 {
+            font-size: larger;
+        }
+
+        #home {
+            background-image: url(https://img.freepik.com/free-vector/circles-background-dark-tones_60389-166.jpg);
+            background-size: cover;
+        }
+
+        .profile-pic-container {
+            width: 300px;
+            height: 300px;
+            /* border-radius: 50%; */
+            background-image: url(https://static.vecteezy.com/system/resources/previews/002/034/021/original/abstract-dynamic-light-blue-overlap-square-shape-on-background-modern-and-minimal-concept-you-can-use-for-cover-brochure-template-poster-banner-web-print-ad-etc-illustration-vector.jpg);
+            background-size: cover;
+            margin: 100px 20px;
+            overflow: hidden;
+        }
+
+        hr {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="position-sticky  top-0">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Portfolio </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav ms-auto me-4">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">Experience</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section class="container-fluid" id="home">
+            <div class="row">
+                <div class="col-md-6 profile-text">
+                    <h2>Shatayu Jitendra Akare</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse numquam quae vel assumenda at
+                        accusantium. Dolores ipsum deserunt cum repellendus nesciunt iure perspiciatis aliquid adipisci!
+                    </p>
+                    <a class="btn btn-primary rounded-3 col-4" href="#">Resume</a>
+                </div>
+                <div class="col profile-pic d-flex justify-content-center align-items-center">
+                    <div class="profile-pic-container rounded-5">
+                        <img class="img-fluid" width="400"
+                            src="https://i.pinimg.com/originals/11/6e/02/116e02af17880ed65736751de348fca6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!-- experience -->
+        <section id="skills" style="margin-top: 50px;">
+            <article id="Skills">
+                <div class="art-head">
+                    Skills
+                </div>
+                <hr>
+                <div class="content">
+
+                    <h3>Web Development Langauge</h3>
+                    <ol>
+                        <li>HTML and HTML5</li>
+                        <li>CSS and CSS3</li>
+                        <li>Java Script</li>
+                        <li>React Js | Next JS</li>
+                        <li>Node JS</li>
+                        <li>MongoDB | Database</li>
+                    </ol>
+                    <h3>Programming Language </h3>
+                    <ol>
+                        <li>C\C++ Programming</li>
+                        <li>Java Programming</li>
+                        <li>Python Programming</li>
+                    </ol>
+                    <h3>Microsoft Office</h3>
+                    <ol>
+                        <li>MS Word</li>
+                        <li>MS Powerpoint</li>
+                        <li>MS Excel</li>
+                    </ol>
+                </div>
+
+            </article>
+        </section>
+        <hr>
+
+        <section id="education">
+            <article id="education">
+                <div class="art-head">
+                    Education
+                </div>
+                <hr>
+                <div class="content">
+                    <ol>
+                        <li>
+                            <div class="art-head-light">
+                                Kamla Nehru Mahavidyalaya, Nagpur
+                                <span style="float: right;">
+                                    Bachelor of Computer Application - II
+                                </span>
+                            </div>
+                            <div class="content">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, quaerat incidunt
+                                doloremque
+                                quod in fuga quis ipsa minus maxime facilis earum ipsam, soluta repellat cumque.
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="art-head-light">
+                                Nanaji Joshi Jr. College, Shahapur, Bhandara
+                                <span style="float: right;">
+                                    12<sup>th</sup> (HSC) Passed - 59.17%
+                                </span>
+                            </div>
+                            <div class="content">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, quaerat incidunt
+                                doloremque
+                                quod in fuga quis ipsa minus maxime facilis earum ipsam, soluta repellat cumque.
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="art-head-light">
+                                Janata High School, Mouda
+                                <span style="float: right;">
+                                    10<sup>th</sup> (SSC) Passed - 75.40%
+                                </span>
+                            </div>
+                            <div class="content">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, quaerat incidunt
+                                doloremque
+                                quod in fuga quis ipsa minus maxime facilis earum ipsam, soluta repellat cumque.
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+
+            </article>
+        </section>
+        <hr>
+        <section id="experience">
+            <article id="experience">
+                <div class="art-head">
+                    Experience
+                </div>
+                <hr>
+                <div class="content">
+                    <ul>
+                        <li>
+                            <div class="art-head-light">
+                                Web Development Intern - March 2023 (3 Months)
+                                <span style="float: right;">
+                                    PHN Technology
+                                </span>
+                            </div>
+                            <div class="content">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, quaerat incidunt
+                                doloremque
+                                quod in fuga quis ipsa minus maxime facilis earum ipsam, soluta repellat cumque.
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="art-head-light">
+                                Web Development Intern - July 2023 (1 Month)
+                                <span style="float: right;">
+                                    Bharat Intern
+                                </span>
+                            </div>
+                            <div class="content">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, quaerat incidunt
+                                doloremque
+                                quod in fuga quis ipsa minus maxime facilis earum ipsam, soluta repellat cumque.
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="art-head-light">
+                                Web Development Intern - August 2023 (1 Month)
+                                <span style="float: right;">
+                                    Oasis Infobyte
+                                </span>
+                            </div>
+                            <div class="content">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, quaerat incidunt
+                                doloremque
+                                quod in fuga quis ipsa minus maxime facilis earum ipsam, soluta repellat cumque.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+    </main>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</html>
